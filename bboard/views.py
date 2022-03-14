@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from .models import Bb, Rubric
 from django.views.generic.edit import CreateView
+from django.urls import reverse_lazy
 from .forms import BbForm
 
 
